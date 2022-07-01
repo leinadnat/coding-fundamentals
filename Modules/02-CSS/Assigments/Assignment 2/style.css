@@ -1,0 +1,35 @@
+.review__section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.review__card {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 2rem 3rem;
+    flex-direction: column;
+    width: 480px;
+    background-color: rgb(245, 245, 245);
+}
+.review__author {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.author__profile {
+    padding-right: 1rem;
+    
+}
+.author__image {
+    border-radius:9999px;
+    height: 3rem;
+}
+.author__rating {
+    color: rgb(255, 187, 0);
+    font-size:large;
+}
+.review__msg {
+    font-style: italic;
+}
