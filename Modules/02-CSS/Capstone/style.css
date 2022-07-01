@@ -1,0 +1,37 @@
+body {
+  background-color: pink;
+
+}
+@media (max-width:640px) {
+  body {
+    background-color: red;
+  }
+  .mobile {
+    display: block;
+  }
+  .tablet,.desktop {
+    display:none;
+  }
+}
+@media (min-width:640px) {
+  body {
+    background-color: green;
+  }
+  .tablet {
+    display: block;
+  }
+  .mobile,.desktop {
+    display:none;
+  }
+}
+@media (min-width:1024px) {
+  body {
+    background-color: blue;
+  }
+  .desktop {
+    display:block;
+  }
+  .mobile,.tablet {
+    display:none;
+  }
+}
