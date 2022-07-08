@@ -1,0 +1,18 @@
+.gitUserProfile {
+    display: flex;
+    margin-top:1rem;
+    align-items: center;
+    border: 1px solid rgb(107, 107, 107);
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    width: 720px;
+    background-color: rgb(245, 245, 245);
+}
+.profileInfo {
+    padding-left:1rem;
+}
+.userAvatar img {
+    height: 180px;
+    width: 180px;
+    border-radius: 9999px;
+}
