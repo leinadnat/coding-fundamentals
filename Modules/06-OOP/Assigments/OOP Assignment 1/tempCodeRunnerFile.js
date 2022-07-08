@@ -1,0 +1,1 @@
+console.log(`${this.n} + ${n} = ${this.n + n}`)
